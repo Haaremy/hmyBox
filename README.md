@@ -14,6 +14,7 @@ TonieBox ist outdated und zu teuer.
 
 ### Schaltplan
 ![screenshot](Schaltplan_Prototyp.png)
+* Im Schaltplan wurde kein Steckboard eingezeichnet. Dieses wurde bspw für die Taster genutzt oder aus Gründen der Kabel-Länge für den RFID-Leser sowie für die Widerstände.
 
 ### Code
 #### Abhängigkeiten
