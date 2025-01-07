@@ -12,7 +12,7 @@ TonieBox ist outdated und zu teuer.
 - 3 x 2 Pin Drückschalter (Taste)
 - 3 x 1k Ohm Widerstand
 
-### Schaltplan
+### Schaltplan Prototyp
 ![screenshot](Schaltplan_Prototyp.png)
 * Im Schaltplan wurde kein Steckboard eingezeichnet. Dieses wurde bspw für die Taster genutzt oder aus Gründen der Kabel-Länge für den RFID-Leser sowie für die Widerstände.
 
@@ -20,3 +20,14 @@ TonieBox ist outdated und zu teuer.
 #### Abhängigkeiten
 - DFRobotDFPlayerMini
 - MFRC522
+
+### Ordnerstruktur Mp3-Modul
+```bash
+├── mp3
+|   ├── 0001_StartUpSound.mp3
+├── 01
+|   ├── 001_Story1_Infos.mp3
+|   ├── 002_Story2Title.mp3   
+├── 02
+...
+```
