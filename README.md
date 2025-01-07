@@ -1,7 +1,9 @@
 # hmyBox
 TonieBox ist outdated und zu teuer.
 
-## Arduino DIY
+## Arduino DIY Prototyp
+### Funktionsweise
+Jeder NFC-Tag hat eine Unique ID. Diese ID liest das RFID Gerät aus und anhand der ID wird in Zeile ~146  die Entsprechende Audio abgespielt. Der Code ab Zeile ~184 ist derzeit ungenutzt und soll in späteren Versuchen die NFC Blöcke lesen (Inhalt des Chips). In einem Probelauf konnte ich die mitgelieferten NFC Tags sowie einen Nintendo Amiibo zur Steuerung der Musik nutzen. Der Amiibo konnte entsprechend im unteren Part nicht ausgelesen werden, da er verschlüsselt ist. Ziel ist es dann einen Tag zu haben, diesen auszulesen und anhand der Nummer/n auf dem NFC die entsprechende Datei zu spielen. Exemplarisch Order 2 Lied 2 (siehe Mp3 Ordnerstruktur).
 
 ### Bauteile Prototyp I
 - Arduino (Funduino) Mega 2560
